@@ -1,0 +1,11 @@
+[package]
+name = "rust-terminal-dimensions-in-docker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "1.5.6"
+term_size = "0.3"
+termsize = "0.1"
