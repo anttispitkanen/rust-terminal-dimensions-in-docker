@@ -23,4 +23,5 @@ FROM rust:1.61 as release
 
 COPY --from=build /rust-terminal-dimensions-in-docker/target/release/rust-terminal-dimensions-in-docker .
 
+# This doesn't work, due to the race condition it will print zeros
 ENTRYPOINT ["./rust-terminal-dimensions-in-docker"]
